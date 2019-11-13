@@ -1,0 +1,11 @@
+C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\qa-tech-test.deps.json
+C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\qa-tech-test.runtimeconfig.json
+C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\qa-tech-test.runtimeconfig.dev.json
+C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\qa-tech-test.dll
+C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\obj\Debug\netcoreapp2.2\qa-tech-test.csprojAssemblyReference.cache
+C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\obj\Debug\netcoreapp2.2\qa-tech-test.csproj.CoreCompileInputs.cache
+C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\obj\Debug\netcoreapp2.2\qa-tech-test.AssemblyInfoInputs.cache
+C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\obj\Debug\netcoreapp2.2\qa-tech-test.AssemblyInfo.cs
