@@ -877,15 +877,6 @@
           "lib/netstandard2.0/TechTalk.SpecFlow.dll": {}
         }
       },
-      "SpecFlow.Allure/2.5.0": {
-        "type": "package",
-        "compile": {
-          "lib/net45/Allure.SpecFlowPlugin.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Allure.SpecFlowPlugin.dll": {}
-        }
-      },
       "SpecFlow.NUnit/3.0.225": {
         "type": "package",
         "dependencies": {
@@ -3678,21 +3669,6 @@
         "lib/netstandard2.0/TechTalk.SpecFlow.pdb",
         "specflow.3.0.225.nupkg.sha512",
         "specflow.nuspec"
-      ]
-    },
-    "SpecFlow.Allure/2.5.0": {
-      "sha512": "HHlAFvb8HU+2Sqpn4H2TD0HmgnGJQSw7NtO9pIVrWwdXHg9qPKOaX4n6q8Ba0Ne7HDfQbscFVxGQ/xv7VYdE2g==",
-      "type": "package",
-      "path": "specflow.allure/2.5.0",
-      "files": [
-        ".nupkg.metadata",
-        "content/App.config.transform",
-        "content/allureConfig.Template.json",
-        "contentFiles/any/net45/App.config.transform",
-        "contentFiles/any/net45/allureConfig.Template.json",
-        "lib/net45/Allure.SpecFlowPlugin.dll",
-        "specflow.allure.2.5.0.nupkg.sha512",
-        "specflow.allure.nuspec"
       ]
     },
     "SpecFlow.NUnit/3.0.225": {
@@ -7922,7 +7898,6 @@
       "NUnit3TestAdapter >= 3.11.0",
       "RestSharp >= 106.6.10",
       "SpecFlow >= 3.0.225",
-      "SpecFlow.Allure >= 2.5.0",
       "SpecFlow.NUnit >= 3.0.225",
       "SpecFlow.Tools.MsBuild.Generation >= 3.0.225",
       "nunit >= 3.11.0"
@@ -8005,10 +7980,6 @@
             "target": "Package",
             "version": "[3.0.225, )"
           },
-          "SpecFlow.Allure": {
-            "target": "Package",
-            "version": "[2.5.0, )"
-          },
           "SpecFlow.NUnit": {
             "target": "Package",
             "version": "[3.0.225, )"
@@ -8047,16 +8018,6 @@
       "warningLevel": 1,
       "message": "Package 'RazorEngine 3.10.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.",
       "libraryId": "RazorEngine",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.2"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'SpecFlow.Allure 2.5.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.",
-      "libraryId": "SpecFlow.Allure",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.2"
       ]
