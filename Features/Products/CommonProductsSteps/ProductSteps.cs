@@ -1,10 +1,6 @@
-﻿using Allure.Commons;
-using FluentAssertions;
+﻿using FluentAssertions;
 using FluentAssertions.Execution;
 using Newtonsoft.Json;
-using NUnit.Allure.Attributes;
-using NUnit.Allure.Core;
-using NUnit.Framework;
 using QaTechTest.Context;
 using QaTechTest.Model;
 using QaTechTest.ServiceClient.Interface;
@@ -12,9 +8,7 @@ using TechTalk.SpecFlow;
 
 namespace QaTechTest.Features.Products
 {
-    [TestFixture]
-    [AllureNUnit]
-    [AllureDisplayIgnored]
+    
     [Binding]
     public sealed class ProductSteps
     {
@@ -29,28 +23,15 @@ namespace QaTechTest.Features.Products
             _productService = productService;
             _productContext = productContext;
         }
-        [Test(Description = "Specfflow")]
-        [AllureTag("Regression")]
-        [AllureSeverity(SeverityLevel.critical)]
-        [AllureIssue("ISSUE-1")]
-        [AllureTms("TMS-12")]
-        [AllureOwner("User")]
-        [AllureSuite("PassedSuite")]
-        [AllureSubSuite("Assert")]
-        [StepDefinition(@"I should get a successful (.*) response")]
-        public void ThenIShouldGetASuccessfulOKResponse(string statusCode)
+        
+        
+        [StepDefinition(@"I should get a (.*) response status")]
+        public void ThenIShouldGetAOKResponseStatus(string statusCode)
         {
             var status = _productContext.ResponseMessage.StatusCode.ToString();
             status.Should().Be(statusCode);
         }
-        [Test(Description = "XXX")]
-        [AllureTag("Regression")]
-        [AllureSeverity(SeverityLevel.critical)]
-        [AllureIssue("ISSUE-1")]
-        [AllureTms("TMS-12")]
-        [AllureOwner("User")]
-        [AllureSuite("PassedSuite")]
-        [AllureSubSuite("NoAssert")]
+     
         [StepDefinition(@"the response should contain my specify product details")]
         public void ThenTheResponseShouldContainTheFollowingProductDetails(Product product)
         {

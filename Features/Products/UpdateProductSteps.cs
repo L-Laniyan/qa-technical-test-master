@@ -22,8 +22,24 @@ namespace QaTechTest.Features.Products
         [StepDefinition(@"I specify the product code (.*) to be updated with these details")]
         public void WhenISpecifyTheProductCodeToBeUpdatedWithTheseDetails(int product_code, Product product)
         {
-            var response = _productService.UpdateProduct(product_code.ToString(), product.Name, product.Price);
+            if (product.Name != null)
+            {
+                var response = _productService.UpdateProduct(product_code.ToString(), product.Name, product.Price);
+                _productContext.ResponseMessage = response;
+            }
+            else 
+            {
+                var response = _productService.UpdateProductPrice(product_code.ToString(), product.Price);
+                _productContext.ResponseMessage = response;
+            }
+        }
+
+        [StepDefinition(@"I dont specify the product code")]
+        public void WhenIDontSpecifyTheProductCode(Product product)
+        {
+            var response = _productService.UpdateProduct(product.Name, product.Price);
             _productContext.ResponseMessage = response;
         }
+
     }
 }

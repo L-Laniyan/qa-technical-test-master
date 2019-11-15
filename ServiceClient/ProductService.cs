@@ -39,6 +39,19 @@ namespace QaTechTest.ServiceClient
 
         }
 
+        public IRestResponse DeleteProduct()
+        {
+
+            var client = new RestClient(string.Format("http://localhost:5000/v1/product/"));
+
+            var request = new RestRequest(Method.DELETE);
+
+            var response = client.ExecuteTaskAsync<Product>(request).GetAwaiter().GetResult();
+
+            return response;
+
+        }
+
 
         public IRestResponse GetProductByProductCode(string product_code)
         {
@@ -74,6 +87,36 @@ namespace QaTechTest.ServiceClient
             var request = new RestRequest(Method.PUT);
 
             request.AddParameter("application/json; Encoding.UTF8", JsonConvert.SerializeObject(new Product() { Name = name, Price = price }), ParameterType.RequestBody);
+
+            var response = client.ExecuteTaskAsync<Product>(request).GetAwaiter().GetResult();
+
+            return response;
+
+        }
+
+        public IRestResponse UpdateProduct(string name, decimal price)
+        {
+
+            var client = new RestClient(string.Format("http://localhost:5000/v1/product/"));
+
+            var request = new RestRequest(Method.PUT);
+
+            request.AddParameter("application/json; Encoding.UTF8", JsonConvert.SerializeObject(new Product() { Name = name, Price = price }), ParameterType.RequestBody);
+
+            var response = client.ExecuteTaskAsync<Product>(request).GetAwaiter().GetResult();
+
+            return response;
+
+        }
+
+        public IRestResponse UpdateProductPrice(string product_code, decimal price)
+        {
+
+            var client = new RestClient(string.Format("http://localhost:5000/v1/product/{0}", product_code));
+
+            var request = new RestRequest(Method.PUT);
+
+            request.AddParameter("application/json; Encoding.UTF8", JsonConvert.SerializeObject(new Product() { Price = price }), ParameterType.RequestBody);
 
             var response = client.ExecuteTaskAsync<Product>(request).GetAwaiter().GetResult();
 

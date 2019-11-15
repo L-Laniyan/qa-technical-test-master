@@ -23,6 +23,13 @@ namespace QaTechTest.Features.Products
             var response = _productService.DeleteProduct(product_code.ToString());
             _productContext.ResponseMessage = response;
         }
+
+        [StepDefinition(@"I don,t specify a product code")]
+        public void WhenIDonTSpecifyAProductCode()
+        {
+            var response = _productService.DeleteProduct();
+            _productContext.ResponseMessage = response;
+        }
     }
 }
 

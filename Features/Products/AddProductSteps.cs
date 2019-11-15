@@ -32,6 +32,18 @@ namespace QaTechTest.Features.Products
             
             var response = _productService.AddProduct(product.Name, product.Price);
             _productContext.ResponseMessage = response; 
-        }     
+        }
+
+        [When(@"I dont specify either product Name Price or both")]
+        public void WhenIDontSpecifyEitherProductNamePriceOrBoth(Product product)
+        {
+ 
+            {
+                var response = _productService.AddProduct(product.Name, product.Price);
+                _productContext.ResponseMessage = response;
+            }
+          
+        }
+
     }
 }

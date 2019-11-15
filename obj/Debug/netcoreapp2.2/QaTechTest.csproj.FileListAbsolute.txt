@@ -1,13 +1,11 @@
 C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
 C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
-C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
 C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
 C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\QaTechTest.deps.json
 C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\QaTechTest.runtimeconfig.json
 C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\QaTechTest.runtimeconfig.dev.json
 C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\QaTechTest.dll
 C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\QaTechTest.pdb
-C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\obj\Debug\netcoreapp2.2\QaTechTest.csproj.CoreCompileInputs.cache
 C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\obj\Debug\netcoreapp2.2\QaTechTest.AssemblyInfoInputs.cache
 C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\obj\Debug\netcoreapp2.2\QaTechTest.AssemblyInfo.cs
 C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\obj\Debug\netcoreapp2.2\QaTechTest.dll
@@ -16,3 +14,5 @@ C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\Ap
 C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\QaTechTest.dll.config
 C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\obj\Debug\netcoreapp2.2\QaTechTest.csprojAssemblyReference.cache
 C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\allureConfig.Template.json
+C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\nunit.engine.dll
+C:\Users\laniy\source\repos\qa-tech-test\qa-tech-test\bin\Debug\netcoreapp2.2\nunit.engine.api.dll
